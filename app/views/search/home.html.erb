@@ -1,0 +1,12 @@
+<div ng-controller="TweetController">
+
+	
+	<label>Search</label>
+	<input type="text" name="input" ng-model="search.text"
+           ng-pattern="example.text" required ng-trim="false">
+	<button ng-click="fetch(search.text)">Search</button>
+    <ul ng-repeat="tweet in tweetdata">
+      <li>{{tweet}}</li>
+    </ul>
+</div>
+
