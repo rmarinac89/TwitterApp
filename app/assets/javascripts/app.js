@@ -19,6 +19,7 @@ app.controller('TweetController', ['$scope', '$http',
 	        $scope.tweetdata = data;
 
 	    })
+
 	    .error(function(data) {
 	        console.log("Error Fetching" + term);
 	    })

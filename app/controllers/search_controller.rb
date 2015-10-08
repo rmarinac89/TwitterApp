@@ -14,7 +14,7 @@ class SearchController < ApplicationController
   	# data = client.search(search_text, result_type: "recent").take(10)
   	# binding.pry
 
-    render :text => client.search(search_text, result_type: "recent").take(10).map {|tweet| {text: tweet.text, user: tweet.user.screen_name, profile_image_url: tweet.user.profile_image_url.to_s } }.to_json
+    render :text => client.search(search_text, result_type: "recent").take(20).map {|tweet| {text: tweet.text, user: tweet.user.screen_name, profile_image_url: tweet.user.profile_image_url.to_s } }.to_json
 
 
   end
