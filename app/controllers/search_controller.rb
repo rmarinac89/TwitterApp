@@ -8,8 +8,7 @@ class SearchController < ApplicationController
 	  config.access_token_secret = "9PFYRMACHOWJ7KcjKf5WDwHbQx4z4Egq3PIyJCEpOGdAF"
 	end
 
-	search_text = params[:text] || "MARKETIQ"
-
+	search_text = params[:text]
 
   	# data = client.search(search_text, result_type: "recent").take(10)
   	# binding.pry
