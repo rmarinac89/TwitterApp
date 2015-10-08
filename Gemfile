@@ -15,8 +15,12 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'pry'
+
 gem 'twitter'
+
 gem 'angularjs-rails'
+
+gem 'bootstrap-sass', '~> 3.1.1.1'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'

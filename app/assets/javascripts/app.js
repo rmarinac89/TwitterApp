@@ -25,7 +25,7 @@ app.controller('TweetController', ['$scope', '$http',
    }
 
    $scope.search = {
-        text: 'Type Something',
+        text: '',
       };
 
 }]);

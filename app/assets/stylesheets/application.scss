@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
+
+ .search-bar {
+ 	display: inline-block;
+ 	width: 30%;
+ 	border-radius: 5em;
+
+ }
+
+ 
+ .btn.btn-twitter {
+	color:#fff;
+	border-radius: 5em;
+	background-color: #55acee;
+	font-family: Helvetica;
+    font-weight: 200;
+    margin-left:15px;
+ }
+
+
+
+
+/* Helpers */
+
+ .mt-lg {
+ 	margin-top: 40px;
+ }

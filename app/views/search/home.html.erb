@@ -1,12 +1,14 @@
-<div ng-controller="TweetController">
-
-	
-	<label>Search</label>
-	<input type="text" name="input" ng-model="search.text"
-           ng-pattern="example.text" required ng-trim="false">
-	<button ng-click="fetch(search.text)">Search</button>
-    <ul ng-repeat="tweet in tweetdata">
-      <li>{{tweet}}</li>
-    </ul>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+		<div ng-controller="TweetController" class="text-center mt-lg">
+			<input class="form-control search-bar" placeholder="Search Tweets..." type="text" name="input" ng-model="search.text" ng-pattern="example.text" required ng-trim="false">
+			<button class="btn btn-twitter" ng-click="fetch(search.text)">Search</button>
+		    <ul ng-repeat="tweet in tweetdata">
+		      <li>{{tweet}}</li>
+		    </ul>
+			</div>
+		</div>
+	</div>
 </div>
 

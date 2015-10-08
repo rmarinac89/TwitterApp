@@ -2,10 +2,10 @@ class SearchController < ApplicationController
 
   def tweets
   	client = Twitter::REST::Client.new do |config|
-	  config.consumer_key        = "KYVz2qaaPdDjA5G5oKom0ycnv"
-	  config.consumer_secret     = "XVy9BNEzVpK2yVzOajd5Qy1nbE8YCVs9bfXnSJkGxlfF21hIjV"
-	  config.access_token        = "705727692-430Drv1RSmzZqzKTDDwnMQH9RHuBi8PUzK3I7R6y"
-	  config.access_token_secret = "QxdnV1mT3XeBHuGUkbifUU8AVihCgi2EE7QKTUnOyHyZm"
+	  config.consumer_key        = "iCdN9anTW3ay8N0CZczQQWfwg"
+	  config.consumer_secret     = "Gb387GH7fCGAlEIj3pwTPiKsXSdPW5ZO2DlcCymVmdiRA0qdIq"
+	  config.access_token        = "1898472066-lJbaERwfFhDNzwem1UlsPED1Xu5C7Yif63Br9sL"
+	  config.access_token_secret = "9PFYRMACHOWJ7KcjKf5WDwHbQx4z4Egq3PIyJCEpOGdAF"
 	end
 
 	search_text = params[:text] || "MARKETIQ"
@@ -18,7 +18,6 @@ class SearchController < ApplicationController
   end
 
   def home
-
 
   end
 
