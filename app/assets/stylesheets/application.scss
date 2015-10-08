@@ -33,6 +33,18 @@
     margin-left:15px;
  }
 
+ .panel-body {
+ 	text-align: left;
+ }
+
+ .user-screen-name {
+ 	display: block;
+ 	font-weight: bold;
+    margin: 2px 0;
+ }
+
+ 
+
 
 
 
@@ -40,4 +52,8 @@
 
  .mt-lg {
  	margin-top: 40px;
+ }
+
+ .mb-lg {
+ 	margin-bottom:40px;
  }
